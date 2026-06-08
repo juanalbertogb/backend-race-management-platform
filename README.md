@@ -194,8 +194,31 @@ docker compose up -d
 
 ## Documentation
 
-- Functional & Backend Design Document
+This project includes comprehensive functional and backend design documentation covering business requirements, domain modeling, workflows, and architectural decisions.
+
+| Document | Description |
+|-----------|-------------|
+| 📄 [Functional & Backend Design Document](docs/Mas_Kilometros_Functional_Design.pdf) | System overview, workflows, business rules, domain model, and backend design decisions |
+| 📊 [Entity Relationship Diagram (ERD)](docs/ERD.png) | Visual representation of the domain model and entity relationships |
+
+The documentation covers:
+
+- System Overview
+- Roles & Responsibilities
+- Domain Model
 - Entity Relationship Diagram (ERD)
+- Authentication Workflow
+- Registration & Payment Workflow
+- Cancellation Workflow
+- Results Processing Workflow
+- Business Rules
+- Future Enhancements
+
+---
+
+## Entity Relationship Diagram
+
+![Mas Kilometros ERD](docs/ERD.png)
 
 ---
 
