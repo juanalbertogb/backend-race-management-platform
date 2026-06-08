@@ -14,6 +14,16 @@ The system handles race publication workflows, registrations, payments, automate
 
 ---
 
+## Why This Project
+
+This project originated from a real-world business need in the sports race management domain.
+
+A race organization required a centralized platform to manage races, registrations, participant payments, and operational workflows more efficiently. The platform was designed to address these business requirements while applying enterprise backend engineering practices commonly found in production environments.
+
+Beyond solving operational challenges, the project serves as an opportunity to explore scalable backend architecture, secure application design, lifecycle-driven business processes, and maintainable software engineering principles.
+
+---
+
 ## Core Features
 
 ### Authentication & Security
@@ -99,6 +109,44 @@ Feature-based layered architecture:
 
 ---
 
+## Engineering Principles
+
+- Clean and maintainable code
+- Separation of concerns
+- Production-oriented design
+- Secure-by-default architecture
+- Business-rule driven workflows
+- Scalability and extensibility
+- Testability and observability
+
+---
+
+## Current Engineering Focus
+
+Currently expanding the platform with:
+
+- Payment retry workflows
+- Refund workflow improvements
+- Pagination support
+- Query optimization
+- Result ingestion workflows
+- API documentation improvements
+- Integration testing
+- Scalable backend architecture practices
+
+---
+
+## Planned Improvements
+
+- OpenAPI / Swagger documentation
+- Redis-based caching
+- Event-driven notifications
+- Performance benchmarking
+- Advanced integration testing
+- Enhanced observability and monitoring
+  
+---
+
 ## Technology Stack
 
 ### Backend
@@ -151,24 +199,13 @@ docker compose up -d
 
 ---
 
-## Current Engineering Focus
-
-Currently expanding the platform with:
-
-- Payment retry workflows
-- Refund workflow improvements
-- Pagination support
-- Query optimization
-- Result ingestion workflows
-- API documentation improvements
-- Integration testing
-- Scalable backend architecture practices
-
----
-
 ## Project Goals
 
-This project is focused on improving backend engineering skills through hands-on implementation of production-oriented application design patterns and enterprise backend development practices.
+The goal of this project is to build a production-oriented backend platform capable of supporting real sports race management operations.
+
+The platform focuses on secure authentication, registration workflows, payment processing, operational automation, and scalable backend architecture while following modern enterprise software engineering practices.
+
+As the platform evolves, it is intended to become a practical solution that can be adapted and deployed for real-world race management scenarios.
 
 ---
 
